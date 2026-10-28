@@ -1,9 +1,9 @@
 #!/bin/bash
 set -x
-Importamos las variables de entorno
+# Importamos las variables de entorno
 source .env
 
-Creamos el certificado autofirmado
+# Creamos el certificado autofirmado
 sudo openssl req \
   -x509 \
   -nodes \
